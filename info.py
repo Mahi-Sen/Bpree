@@ -29,12 +29,12 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'moneykamalo.com'))
-STREAM_API = (environ.get('STREAM_API', '066b4e0888fce4354bff099f5bc87128b05c5328'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HowToOpenLinkHP/69'))
+STREAM_SITE = (environ.get('STREAM_SITE', ''))
+STREAM_API = (environ.get('STREAM_API', ''))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HOW_TO_DOWNLOAD_MAHI/2'))
 
 # Admins, Channels & Users
-OWNER_ID = int(environ.get("OWNER_ID", "6451069717"))
+OWNER_ID = int(environ.get("OWNER_ID", "7109446890"))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7109446890').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002226137912').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '7109446890').split()]
@@ -66,11 +66,11 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Radhe_Radhe_MS')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Radhe_Radhe_MS')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Radhe_Radhe_MS')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HOW_TO_DOWNLOAD_MAHI/2')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ʜᴘ')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002104902374')) #Log channel id ( make sure bot is admin )
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Radhe_Radhe_MS') #Support group link ( make sure bot is admin )
+MSG_ALRT = environ.get('MSG_ALRT', 'ʜᴀᴘᴘʏ ᴇɴᴊᴏʏᴍᴇɴᴛ ʙᴜᴅᴅʏ ❤️')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002104902374'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Radhe_Radhe_MS')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
