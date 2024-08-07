@@ -1601,7 +1601,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "seeplans":
         btn = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=f"{OWNER_ID}")
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=f"7109446890")
         ],[
             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
@@ -1781,7 +1781,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('✉️ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ ✉️', url='https://t.me/Mahi_Movie_Request')
         ],[
-            InlineKeyboardButton('⇇ ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start'),
             InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/THE_MAHI_KING')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
