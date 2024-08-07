@@ -57,7 +57,7 @@ async def check_expired_premium(client):
                 user = await client.get_users(user_id)
                 await client.send_message(
                     chat_id=user_id,
-                    text=f"👋 Your paid plan has **Expired**. buy new one. contact @"
+                    text=f"**👋 ʏᴏᴜʀ ᴘʟᴀɴ ᴇxᴘɪʀᴇᴅ ᴄᴏɴᴛᴀᴄᴛ @ᴛʜᴇ_ᴍᴀʜɪ_ᴋɪɴɢ ᴛᴏ ʙᴜʏ ɴᴇᴡ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ**"
                 )
             except Exception as e:
                 print(e)
